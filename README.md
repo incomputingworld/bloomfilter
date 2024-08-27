@@ -3,8 +3,8 @@
 # Bloom Filter - Part - 1  
 
 ### Article link  
-substack.com - Placeholder  
-Medium.com - Placeholder  
+substack.com - https://sunilkathuria.substack.com/p/bloom-filter-part-1  
+Medium.com - https://medium.com/incomputingworld/bloom-filter-part-1-21d6257c8c8d  
 
 ### For Article/Bloom Filter - Part 1/simple_bloom_filter.py  
 This file explains the basic implementation of a bloom filter. It covers insertion and search operations and also demonstrates an example of a "False-Positive."  
@@ -13,8 +13,8 @@ This file explains the basic implementation of a bloom filter. It covers inserti
 # Bloom Filter - Part - 2   
 
 ### Article link  
-substack.com - Placeholder  
-Medium.com - Placeholder  
+substack.com - https://sunilkathuria.substack.com/p/bloom-filter-part-2    
+Medium.com - https://medium.com/incomputingworld/bloom-filter-part-2-1921e4958a12    
 
 ### For Article/Bloom Filter - Part 2/bloom_filter.py  
 This file contains the implementation of the class BloomFilter.  
