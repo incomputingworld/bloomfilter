@@ -47,7 +47,6 @@ This file contains the schema definition we must create before running the appli
 ### For Article/Bloom Filter - Part 3/Database/test_data.sql  
 This file contains many insert statements that act as base data for this application.  
 
-
 ### For Article/Bloom Filter - Part 3/main_server  
 This folder contains the files to run the main_server application.   
 
@@ -72,5 +71,34 @@ This file implements the node_server application. Written in flask. It primarily
 ### For Article/Bloom Filter - Part 3/node_server/operations.py   
 This file contains all the business logic, written in various functions, to run the node server.   
 
-### For Article/Bloom Filter - Part 3/requirements.txt  
+### For Article/requirements.txt  
+Create a virtual environment on your machine and use this requirements file to set the environment.  
+
+
+# Bloom Filter - Part - 4   
+
+### Article link  
+Substack - https://sunilkathuria.substack.com/p/bloom-filter-part-4  
+Medium - https://medium.com/incomputingworld/bloom-filter-part-4-482d826db4f0  
+
+### For Article/Bloom Filter - Part 4  
+This is the main folder for this article.   
+
+### For Article/Bloom Filter - Part 4/hashes.py  
+This file imports all the hash functions that the class BloomFilter uses.  
+
+### For Article/Bloom Filter - Part 4/input_data.py  
+This file contains four lists. The data from these lists is added and searched for while implementing a Bloom filter.  
+
+### For Article/Bloom Filter - Part 4/measurements.py  
+This file contains the implementation of mathematical functions that help decide the size of a bloom filter array, suggests the count hash functions to use, and a function that calculates the "False-positive" rate of a bloom filter based on the number of entries added.  
+
+### For Article/Bloom Filter - Part 4/scalable_bloom_filter.py  
+This file contains the implementation of two classes. First is the BlooFilter. This class implements a bloom filter similar to the one we used in the previous articles. However, there is one additional parameter, "load_threshold." This is used to check the load (whether the number of bits set to 1 exceeds this threshold or not).  
+The second class is ScalableBloomFilter. This class uses BloomFilter to implement a scalable bloom filter in a list. It provides the functionality to request a new bloom filter when the load threshold of the current bloom filter exceeds the limit. It also modifies the search functionality, checking all the bloom filters.  
+
+### For Article/Bloom Filter - Part 4/test_scalable_bloom_filter.py  
+This file contains the sample implementation of the class BloomFilter.  
+
+### For Article/requirements.txt  
 Create a virtual environment on your machine and use this requirements file to set the environment.  
